@@ -1,0 +1,6 @@
+version: "2.27"
+services:
+  app: 
+    build: ./infra/php
+    volumes:
+      - ./src:/data
